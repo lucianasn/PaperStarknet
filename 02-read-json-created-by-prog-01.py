@@ -95,7 +95,7 @@ def read_json(fname):
                   + ";" + data['updated_at'][:10])
 
 def main():
-    read_json( 'repositories.json' )
+    read_json( '01-repositories-info.json' )
 
 if __name__ == "__main__":
     main()

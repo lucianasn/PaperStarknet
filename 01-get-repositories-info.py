@@ -36,7 +36,7 @@ def main():
     print(f"Total de repositórios disponíveis: {total_count}")
     print(f"Total de páginas disponíveis: {total_pages}")
 
-    json_file = open('repositories.json', 'w', encoding='utf-8')
+    json_file = open('01-repositories-info.json', 'w', encoding='utf-8')
 
     counter = 0
     for page in range(0, total_pages+1):
