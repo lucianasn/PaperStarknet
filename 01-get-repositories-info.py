@@ -11,7 +11,8 @@ import json
 ###################################################################
 def main():
     # open index of repositories: each line stores one repository
-    with open('index-of-repositories.txt', 'r', encoding='utf-8') as input_file:
+    #with open('index-of-repositories.txt', 'r', encoding='utf-8') as input_file:
+    with open('index-of-repositories-teste.txt', 'r', encoding='utf-8') as input_file:
         repos_list = input_file.readlines()
 
     # create output json file
@@ -47,22 +48,20 @@ def get_repository_summary(param, json_file):
         user = url[3]
         api_url = f'https://api.github.com/users/{user}/repos'
         response = make_http_request(api_url)
-        if response == None:
-            return
+
         for repo in response:
-            line = json.dumps(repo)
-            json_file.write( line + '\n' )
+            if str(repo['language']).lower() == "cairo":
+                line = json.dumps(repo)
+                json_file.write( line + '\n' )
+
     elif len(url)==5:
         # this is a repo
         user = url[3]
         repo = url[4]
         api_url = f'https://api.github.com/repos/{user}/{repo}'
-        response = make_http_request(api_url)
-        if response == None:
-            return
-        for repo in response:
-            line = json.dumps(repo)
-            json_file.write( line + '\n' )
+        repo = make_http_request(api_url)
+        repo = json.dumps(repo)
+        json_file.write( repo + '\n' )
     else:
         # garbage
         print (f'Unexpected input: {param}')
@@ -74,7 +73,7 @@ def get_repository_summary(param, json_file):
 ###################################################################
 def make_http_request( api_url ):
     # always sleep before making a request
-    time.sleep(10)
+    time.sleep(2)
     # make http request
     response = requests.get(api_url)
     print(api_url)
