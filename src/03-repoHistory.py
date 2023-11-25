@@ -88,49 +88,7 @@ def __backup_all_commits_repos():
                 return f"Failed to get commits. Status code: {response.status_code}"
         s.update_json_file(c.commits_json_temp_path, all_commits)    
 
-
-def get_monthly_commits():
-    print("Calculating the monthly number of commits ..")
-    columns = []
-    s.create_empty_csv_file(c.monthly_number_commits_path, columns)
-
-
-    print("done.")
-    
-def get_stats_repo():
-    print("Getting stats from all repos ..")
-
-    columns = ['id', 'full_name', 'language', 'contains_cairo', 'stars', 'watchers', 'forks', 'created_date', 'pr_count', 'issues_count', 'commits_count']
-
-    s.create_empty_csv_file(c.stats_repo_path, columns)
-    repos_list = open(c.repositories_path, 'r', encoding='utf-8').readlines()  
-
-    __save_stats_by_repo(repos_list, columns) 
-    print("done.")
-
-########################## Private Functions ###########################
-
-def __save_stats_by_repo(repos_list, columns):
-    teste = []
-    for repo in repos_list:
-        repo = json.loads(repo)
-        full_name = repo['full_name']
-        
-        query_info = {
-            'id': repo['id'],
-            'full_name': full_name, 
-            'token': c.github_token,
-            'url': f'{c.GITHUB_API_RV3}{full_name}'            
-        }
-        
-        print(f'Repo: {full_name}')
-
-        repo_statistics = stats.get_repo_statistics(query=query_info)
-
-        repo_stats_df = pd.DataFrame([repo_statistics], columns=columns)
-        print(repo_stats_df)
-        repo_stats_df.to_csv(c.stats_repo_path, mode='a', index=False, header=False)
-        
+   
 
 
 
