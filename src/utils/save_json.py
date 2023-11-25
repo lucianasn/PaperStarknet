@@ -10,7 +10,7 @@ def save_json_file(path, json_data):
     save_info.close()
 
 def update_json_file(path, json_data):
-    save_info = open(path, 'w', encoding='utf-8')
+    save_info = open(path, 'a', encoding='utf-8')
     save_info.write(json.dumps(json_data) + c.NEW_LINE)
     save_info.close()
 

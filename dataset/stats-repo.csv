@@ -1,0 +1,92 @@
+id,full_name,language,contains_cairo,stars,watchers,forks,created_date,pr_count,issues_count,commits_count
+513739900,10k-swap/10k_swap-contracts,"{'Cairo': 315978, 'TypeScript': 68355, 'Shell': 687}",True,53,2,16,2022-07-14T02:58:29Z,0,0,30
+520712757,grillolepic/almanacNFT_cairo,"{'Cairo': 26168, 'JavaScript': 263}",True,6,2,2,2022-08-03T02:32:35Z,0,0,10
+444112251,crytic/amarna,"{'Python': 74570, 'Cairo': 19432}",True,142,3,6,2022-01-03T15:37:36Z,2,13,30
+425851845,argentlabs/argent-x,"{'TypeScript': 3483859, 'Svelte': 13800, 'JavaScript': 11395, 'CSS': 9870, 'Shell': 2956, 'HTML': 2244, 'Dockerfile': 533, 'Python': 439, 'MDX': 393}",False,562,27,216,2021-11-08T13:37:56Z,14,30,30
+696240942,avnu-labs/avnu-contracts-v2,{'Cairo': 116185},True,13,4,2,2023-09-25T11:24:16Z,0,0,23
+563865519,keep-starknet-strange/beerus,"{'Rust': 433643, 'Handlebars': 17503, 'Shell': 10004, 'Dockerfile': 1684, 'JavaScript': 845, 'CSS': 87}",False,190,8,60,2022-11-09T13:59:01Z,3,3,30
+596600498,myBraavos/efficient-secp256r1,"{'Cairo': 36689, 'Python': 4419}",True,17,1,4,2023-02-02T14:41:40Z,1,1,10
+504108170,myBraavos/starkhouse-execute-deepdive,"{'Cairo': 12727, 'Shell': 107}",True,2,0,1,2022-06-16T10:17:51Z,0,0,2
+589985290,myBraavos/starknet-basecamp-aa-example,{'Cairo': 10391},True,4,0,1,2023-01-17T12:03:07Z,0,0,2
+515496369,myBraavos/starknet.cc,{'Cairo': 24402},True,3,0,0,2022-07-19T08:19:50Z,0,0,3
+492915561,Carbonable/carbon-protocol,"{'Cairo': 410234, 'Shell': 7861}",True,43,1,14,2022-05-16T16:29:35Z,1,25,30
+662075026,Carbonable/metadata,"{'Cairo': 1203175, 'Shell': 3802}",True,3,0,1,2023-07-04T09:52:23Z,0,2,30
+636357962,Carbonable/metadata-cairo0,"{'Cairo': 893979, 'Makefile': 122}",True,1,1,2,2023-05-04T17:09:58Z,1,1,28
+638194781,Carbonable/mint-from-ethereum,"{'Cairo': 15420, 'Solidity': 7428}",True,0,0,1,2023-05-09T09:26:37Z,0,0,19
+571778091,Carbonable/starkvest,"{'Cairo': 57271, 'Shell': 9217}",True,0,0,0,2022-11-28T21:34:35Z,0,0,30
+486585882,CarmineOptions/carmine-protocol,"{'Cairo': 896011, 'Python': 35280, 'Shell': 4858, 'Makefile': 762}",True,27,2,10,2022-04-28T12:30:49Z,6,6,30
+577256323,CarmineOptions/Chronos-Oracle,{'Cairo': 25332},True,4,2,0,2022-12-12T10:34:32Z,0,0,30
+628552377,CarmineOptions/governance,"{'Cairo': 57130, 'Makefile': 273}",True,5,2,3,2023-04-16T10:04:23Z,2,2,30
+525635698,comoco-labs/starknet-contracts,"{'Cairo': 93481, 'Python': 31852, 'Makefile': 139}",True,6,2,0,2022-08-17T04:14:01Z,0,0,30
+479410235,checkpoint-labs/checkpoint,"{'TypeScript': 121680, 'JavaScript': 2289}",False,47,5,19,2022-04-08T13:54:22Z,2,25,30
+664292494,Scotthamy/disperse-starknet,"{'TypeScript': 11915, 'CSS': 10684, 'Cairo': 1663, 'JavaScript': 111}",True,0,1,0,2023-07-09T14:22:18Z,0,0,17
+403297256,dmailofficial/dmail,"{'Rust': 8266161, 'Makefile': 1363436, 'JavaScript': 128310, 'HTML': 22152, 'CSS': 12425, 'LLVM': 11640, 'Shell': 267}",False,88,9,18,2021-09-05T12:02:19Z,0,1,30
+685829879,EkuboProtocol/abis,{'Cairo': 28126},True,5,1,8,2023-09-01T05:34:00Z,1,2,2
+659812482,EkuboProtocol/governance,{'Cairo': 103448},True,34,1,12,2023-06-28T15:59:12Z,2,4,30
+661774475,0xandee/flex-marketplace-cairo0-contracts,"{'Cairo': 236075, 'Python': 25741}",True,0,0,0,2023-07-03T16:03:01Z,0,0,3
+526648499,yuki-wtf/GoL2-Contract,"{'TypeScript': 121764, 'Cairo': 94783, 'Dockerfile': 210}",True,8,0,2,2022-08-19T14:56:19Z,0,0,30
+402464787,0xSpaceShard/starknet-hardhat-plugin,"{'TypeScript': 297764, 'Shell': 15172, 'JavaScript': 9842, 'Python': 4534, 'Cairo': 3037, 'CSS': 2368}",True,197,10,31,2021-09-02T15:08:03Z,2,26,30
+490723971,playmint/hardhat-starknet-compile,{'TypeScript': 14451},False,4,0,1,2022-05-10T14:06:05Z,0,0,30
+494005168,playmint/hardhat-starknetjs,{'TypeScript': 9709},False,8,0,2,2022-05-19T09:28:44Z,0,0,30
+491480882,jediswaplabs/JediSwap,"{'Cairo': 262056, 'Python': 17658}",True,82,5,53,2022-05-12T11:14:45Z,2,10,7
+494474736,NethermindEth/horus-checker,"{'Haskell': 192023, 'Cairo': 46779, 'Shell': 7072, 'Python': 1566, 'Yacc': 1517, 'Dockerfile': 994, 'Lex': 936}",True,55,7,6,2022-05-20T13:28:16Z,8,15,30
+449088368,NethermindEth/juno,"{'Go': 971183, 'Rust': 34442, 'Makefile': 1858, 'Dockerfile': 577}",False,278,9,99,2022-01-18T00:22:14Z,23,30,30
+599979944,keep-starknet-strange/madara,"{'Rust': 828638, 'Cairo': 188487, 'JavaScript': 8201, 'Shell': 4203, 'Python': 2664, 'Dockerfile': 1337, 'Nix': 1088}",True,361,9,177,2023-02-10T10:04:22Z,11,30,30
+627890712,DeLightFi/Cairo1-exploration,"{'Cairo': 18304, 'Makefile': 684}",True,0,0,0,2023-04-14T12:30:40Z,0,0,5
+627046072,DeLightFi/Morphine-contracts,"{'Cairo': 1225411, 'Python': 110844, 'Makefile': 60}",True,0,0,0,2023-04-12T17:10:59Z,0,0,30
+687143123,DeLightFi/Sith_auto,{'Cairo': 28907},True,2,0,0,2023-09-04T18:03:17Z,0,0,1
+408247158,OpenZeppelin/nile,"{'Python': 197648, 'Cairo': 1972}",True,324,7,75,2021-09-19T22:05:19Z,5,30,30
+397755303,OpenZeppelin/cairo-contracts,{'Rust': 400700},False,731,17,283,2021-08-18T23:00:24Z,9,30,30
+480421707,astraly-labs/Pragma,"{'TypeScript': 129345, 'JavaScript': 2597, 'CSS': 244}",False,79,5,21,2022-04-11T14:42:09Z,10,10,30
+405032082,eqlabs/pathfinder,"{'Rust': 3342658, 'Jupyter Notebook': 32470, 'Python': 11088, 'Cairo': 5118, 'Dockerfile': 4306, 'Shell': 1910, 'Just': 523}",True,505,19,204,2021-09-10T09:49:13Z,8,30,30
+621399329,protoss-exchange/protoss-exchange-contracts,"{'Cairo': 327299, 'TypeScript': 11038, 'Shell': 1739}",True,1,0,0,2023-03-30T15:26:54Z,0,0,28
+454019012,software-mansion/protostar,"{'Python': 1231321, 'Cairo': 240160, 'Rust': 127561, 'TypeScript': 29481, 'Shell': 10947, 'JavaScript': 10406, 'CSS': 2591}",True,246,8,44,2022-01-31T13:34:34Z,0,30,30
+610125964,reddio-com/cairo,{'Cairo': 126170},True,12,3,2,2023-03-06T06:23:20Z,0,2,30
+627890712,DeLightFi/Cairo1-exploration,"{'Cairo': 18304, 'Makefile': 684}",True,0,0,0,2023-04-14T12:30:40Z,0,0,5
+627046072,DeLightFi/Morphine-contracts,"{'Cairo': 1225411, 'Python': 110844, 'Makefile': 60}",True,0,0,0,2023-04-12T17:10:59Z,0,0,30
+687143123,DeLightFi/Sith_auto,{'Cairo': 28907},True,2,0,0,2023-09-04T18:03:17Z,0,0,1
+451357521,starknet-io/starkgate-contracts,"{'Python': 172418, 'Solidity': 77170, 'Cairo': 43075, 'CMake': 39847, 'Dockerfile': 747, 'Shell': 116}",True,156,9,306,2022-01-24T07:21:05Z,0,6,8
+717247145,StarkGuardians/contract-deploy,{'Cairo': 10545},True,3,0,3,2023-11-10T22:50:38Z,0,0,5
+639657900,StarkGuardians/sgn-launchpad-contracts,{'Cairo': 37716},True,0,0,0,2023-05-12T00:00:39Z,0,0,1
+639655145,StarkGuardians/sgn-minting-contract,{'Cairo': 45910},True,0,0,0,2023-05-11T23:46:25Z,0,0,1
+412532737,0xSpaceShard/starknet-devnet,"{'Python': 845732, 'Shell': 17587, 'Solidity': 16755, 'Cairo': 10653, 'JavaScript': 7967, 'CSS': 3359, 'Dockerfile': 865}",True,210,8,84,2021-10-01T16:04:16Z,0,2,30
+660076900,zk-ns/zk-name-service--cairo1.0,{'Cairo': 35665},True,1,1,1,2023-06-29T07:37:11Z,0,0,10
+386945277,NethermindEth/warp,"{'TypeScript': 3573696, 'Cairo': 524520, 'Solidity': 299544, 'Python': 19588, 'PEG.js': 9903, 'Shell': 2312, 'JavaScript': 1145, 'Dockerfile': 464, 'Makefile': 352}",True,752,12,70,2021-07-17T13:29:06Z,6,30,30
+545559971,crytic/vscode-starknet-explorer,"{'TypeScript': 21112, 'Shell': 119}",False,6,2,0,2022-10-04T15:28:02Z,0,0,9
+505834193,FuzzingLabs/thoth,"{'Python': 307861, 'Cairo': 158687, 'TypeScript': 17965, 'Rust': 2063}",True,221,4,21,2022-06-21T12:30:07Z,0,7,30
+437028937,agolajko/suez,"{'TypeScript': 33959, 'Cairo': 22357, 'Solidity': 12325, 'CSS': 10982, 'JavaScript': 3010, 'HTML': 1791}",True,6,1,2,2021-12-10T15:39:27Z,0,1,30
+526773357,nmalzieu/starky,"{'TypeScript': 150120, 'Dockerfile': 1705, 'SCSS': 1595, 'Shell': 282, 'JavaScript': 139}",False,28,2,8,2022-08-19T23:01:44Z,4,4,30
+665568289,sm1ck/starkstats,"{'TypeScript': 128029, 'CSS': 6527, 'HTML': 2576, 'JavaScript': 1783, 'Dockerfile': 129}",False,5,2,4,2023-07-12T13:45:56Z,0,0,30
+693899855,project3fusion/StarkSharp,"{'C#': 949391, 'JavaScript': 5501}",False,11,0,2,2023-09-20T00:05:56Z,0,0,30
+683906413,iLAYER-ORG/Starknet.unity,{'C#': 43926},False,3,0,0,2023-08-28T03:16:55Z,0,0,19
+431103060,software-mansion/starknet.py,,False,232,13,48,2021-11-23T13:04:17Z,7,24,30
+418545583,starknet-io/starknet.js,,False,771,20,490,2021-10-18T14:48:18Z,11,30,30
+626516442,starknet-id/auto_renew_contract,,False,0,2,0,2023-04-11T16:12:06Z,0,0,30
+644013383,starknet-id/contract_cairo1,,False,0,2,0,2023-05-22T16:13:24Z,0,0,13
+704445198,starknet-id/custom_uri_component,,False,0,0,0,2023-10-13T09:18:14Z,0,0,13
+646947246,starknet-id/deprecated_verifier,,False,0,2,0,2023-05-29T17:56:25Z,1,1,10
+717070444,starknet-id/encoder_component,,False,0,1,0,2023-11-10T13:45:48Z,0,0,6
+591668573,starknet-id/ens_resolver,,False,1,1,0,2023-01-21T13:34:41Z,0,0,1
+717071259,starknet-id/eth_stark_resolver,,False,0,1,1,2023-11-10T13:47:47Z,0,0,8
+652266750,starknet-id/hack,,False,2,1,0,2023-06-11T16:02:29Z,0,0,1
+676490264,starknet-id/identity,,False,3,1,0,2023-08-09T10:13:11Z,0,0,30
+540817077,starknet-id/identity_tokens,,False,5,1,1,2022-09-24T12:09:41Z,0,4,26
+652487729,starknet-id/multicalls_old,,False,0,2,0,2023-06-12T07:11:43Z,0,0,3
+674939895,starknet-id/naming,,False,1,1,0,2023-08-05T08:31:51Z,0,3,30
+434233934,xJonathanLEI/starknet-rs,,False,226,7,67,2021-12-02T13:36:02Z,4,13,30
+503730882,software-mansion/starknet-jvm,,False,49,9,9,2022-06-15T11:09:36Z,3,15,30
+547521692,dolven-labs-catalyst/cairo-kings-arena-solutions,,False,0,0,1,2022-10-07T20:35:29Z,0,0,1
+514421616,dolven-labs-catalyst/Dolven-Approver,,False,3,0,2,2022-07-15T22:34:49Z,0,0,2
+534310205,dolven-labs-catalyst/dolven-challanger,,False,0,0,1,2022-09-08T16:57:52Z,0,0,2
+514421498,dolven-labs-catalyst/Dolven-DAO,,False,2,0,7,2022-07-15T22:33:55Z,0,0,23
+515795284,dolven-labs-catalyst/Dolven-Factory,,False,0,0,1,2022-07-20T01:36:35Z,0,0,7
+518240268,dolven-labs-catalyst/dolven-faucet,,False,1,0,2,2022-07-26T22:57:45Z,0,0,1
+526124177,dolven-labs-catalyst/Dolven-Lottery,,False,0,0,1,2022-08-18T08:30:48Z,0,0,4
+490185579,dolven-labs-catalyst/Dolven-Multi-Caller,,False,0,0,0,2022-05-09T07:51:41Z,0,0,1
+490184492,dolven-labs-catalyst/Dolven-Time-Locker,,False,1,0,0,2022-05-09T07:48:17Z,0,0,10
+490185340,dolven-labs-catalyst/Dolven-Vaults,,False,3,0,8,2022-05-09T07:51:01Z,0,0,30
+514421572,dolven-labs-catalyst/Dolven-Vestings,,False,0,0,6,2022-07-15T22:34:26Z,0,0,19
+524799067,dolven-labs-catalyst/DolvenTokenMinter,,False,2,0,1,2022-08-14T23:05:04Z,0,0,2
+618179312,dolven-labs-catalyst/starknet-social,,False,9,1,3,2023-03-23T23:10:35Z,0,0,1
+373708688,nounsDAO/nouns-monorepo,,False,606,23,406,2021-06-04T03:26:03Z,30,30,30
+421832944,snapshot-labs/sx-starknet,,False,101,6,69,2021-10-27T13:37:37Z,2,11,30

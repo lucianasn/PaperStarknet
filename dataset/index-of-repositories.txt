@@ -2,6 +2,7 @@ https://github.com/10k-swap
 https://github.com/grillolepic/almanacNFT_cairo
 https://github.com/crytic/amarna
 https://github.com/argentlabs/argent-x
+https://github.com/argentlabs/argent-contracts-starknet
 https://github.com/avnu-labs/avnu-contracts-v2
 https://github.com/apibara
 https://github.com/keep-starknet-strange/beerus

@@ -61,7 +61,7 @@ def get_repository_summary(param, json_file):
         repo = url[4]
         api_url = f'https://api.github.com/repos/{user}/{repo}'
         repo = make_http_request(api_url)
-        if repo:
+        if repo and str(repo['language']).lower() == "cairo":
             repo = json.dumps(repo)
             json_file.write( repo + '\n' )
     else:

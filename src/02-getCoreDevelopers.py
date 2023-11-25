@@ -72,7 +72,7 @@ def __save_contributors_by_repo(repos_list, columns):
     
         contributor_df = pd.DataFrame(contributors_info, columns=columns)
         coreDevelopers.sort_contributor_info_by_number_commits_df(contributor_df, columns[4])
-        s.update_csv_file(c.colaborators_path, contributors_info)    
+        contributor_df.to_csv(c.colaborators_path, mode='a', index=False, header=False)
 
     return repo_total_commits
         
